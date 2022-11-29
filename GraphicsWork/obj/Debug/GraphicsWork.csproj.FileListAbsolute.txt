@@ -1,0 +1,10 @@
+D:\work\C#\GraphicsWork\GraphicsWork\bin\Debug\GraphicsWork.exe.config
+D:\work\C#\GraphicsWork\GraphicsWork\bin\Debug\GraphicsWork.exe
+D:\work\C#\GraphicsWork\GraphicsWork\bin\Debug\GraphicsWork.pdb
+D:\work\C#\GraphicsWork\GraphicsWork\obj\Debug\GraphicsWork.csproj.AssemblyReference.cache
+D:\work\C#\GraphicsWork\GraphicsWork\obj\Debug\GraphicsWork.csproj.SuggestedBindingRedirects.cache
+D:\work\C#\GraphicsWork\GraphicsWork\obj\Debug\GraphicsWork.Properties.Resources.resources
+D:\work\C#\GraphicsWork\GraphicsWork\obj\Debug\GraphicsWork.csproj.GenerateResource.cache
+D:\work\C#\GraphicsWork\GraphicsWork\obj\Debug\GraphicsWork.csproj.CoreCompileInputs.cache
+D:\work\C#\GraphicsWork\GraphicsWork\obj\Debug\GraphicsWork.exe
+D:\work\C#\GraphicsWork\GraphicsWork\obj\Debug\GraphicsWork.pdb
