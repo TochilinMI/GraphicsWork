@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace GraphicsWork
 {
-    internal class CoordDrawer : IDrawer
+    internal class PointRemember
     {
-        private List<string> PointList = new List<string>{"Список точек"};
-        public CoordDrawer(){}
+        private List<Point> PointList = new List<Point> {};
+        public PointRemember(){}
         public void DrawCircle(int Xc, int Yc, int Radius)
         {
             int x=0, y=0;
@@ -17,15 +18,11 @@ namespace GraphicsWork
             {
                 x = (int)(Radius * Math.Cos(grad) + Xc);
                 y = (int)(Radius * Math.Sin(grad) + Yc);
-                if (grad == 0) PointList.Add($"()Begin circle({x},{y})");
-                PointList.Add($"Point({x},{y})");
+                PointList.Add(new Point(x,y));
             }
-            PointList.Add($"()End circle({x},{y})");
         }
         public void DrawLine(int X1, int Y1, int X2, int Y2) //Bresenham
         {
-            PointList.Add($"______________Begin line({X1},{Y1})");
-
             int step = Math.Max(Math.Abs(X2 - X1), Math.Abs(Y2 - Y1));
             Double dx = ((double)X2 - X1) / step;
             Double dy = ((double)Y2 - Y1) / step;
@@ -38,20 +35,12 @@ namespace GraphicsWork
                 i = (int)Y;
                 X += dx;
                 j = (int)X;
-                PointList.Add($"line({j},{i})");
+                PointList.Add(new Point(j, i));
             }
-
-            PointList.Add($"______________End line({X1},{Y1})");
         }
-
-        public void Show()
+        public List<Point> GetPointList()
         {
-            // Отрисовка матрицы
-            foreach (var point in PointList)
-            {
-                Console.WriteLine(point);
-            }            
+            return this.PointList;
         }
-
     }
 }

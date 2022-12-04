@@ -18,11 +18,12 @@ namespace GraphicsWork
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());*/
             //IDrawer drawer = new ConsoleDrawer(100, 37, ".");
-            IDrawer drawer = new CoordDrawer();
-            drawer.DrawCircle(15, 15, 10);
-            drawer.DrawLine(25, 1, 99, 35);
-            drawer.DrawLine(30, 2, 5, 5);
-            drawer.Show();
+            PointRemember points= new PointRemember();
+            points.DrawCircle(15, 15, 10);
+            points.DrawLine(25, 1, 99, 35);
+            points.DrawLine(30, 2, 5, 5);
+            Console.WriteLine(points.GetPointList()[0]);
+            //drawer.Show();
         }
     }
 }
