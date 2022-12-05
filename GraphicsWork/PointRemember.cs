@@ -9,7 +9,7 @@ namespace GraphicsWork
 {
     internal class PointRemember
     {
-        private List<Point> PointList = new List<Point> {};
+        private List<Point> PointList = new List<Point> { };
         public PointRemember(){}
         public void DrawCircle(int Xc, int Yc, int Radius)
         {
@@ -40,7 +40,7 @@ namespace GraphicsWork
         }
         public List<Point> GetPointList()
         {
-            return this.PointList;
+            return PointList;
         }
     }
 }

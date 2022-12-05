@@ -8,7 +8,6 @@ namespace GraphicsWork
 {
     internal interface IDrawer
     {
-        void InitDrawer();
         void Show();
     }
 }
