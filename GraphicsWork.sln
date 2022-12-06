@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsWork", "GraphicsWork\GraphicsWork.csproj", "{9246BD5D-C3AC-43A4-B75A-7FB2EABC6BDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm", "WinForm\WinForm.csproj", "{9F6D0DB3-FC3C-45DF-95B9-576ED8E5EB2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9246BD5D-C3AC-43A4-B75A-7FB2EABC6BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9246BD5D-C3AC-43A4-B75A-7FB2EABC6BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9246BD5D-C3AC-43A4-B75A-7FB2EABC6BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F6D0DB3-FC3C-45DF-95B9-576ED8E5EB2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6D0DB3-FC3C-45DF-95B9-576ED8E5EB2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6D0DB3-FC3C-45DF-95B9-576ED8E5EB2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6D0DB3-FC3C-45DF-95B9-576ED8E5EB2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

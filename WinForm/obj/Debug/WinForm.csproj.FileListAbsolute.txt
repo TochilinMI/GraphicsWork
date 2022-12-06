@@ -1,0 +1,11 @@
+D:\work\C#\GraphicsWork\WinForm\bin\Debug\WinForm.exe.config
+D:\work\C#\GraphicsWork\WinForm\bin\Debug\WinForm.exe
+D:\work\C#\GraphicsWork\WinForm\bin\Debug\WinForm.pdb
+D:\work\C#\GraphicsWork\WinForm\obj\Debug\WinForm.csproj.AssemblyReference.cache
+D:\work\C#\GraphicsWork\WinForm\obj\Debug\WinForm.csproj.SuggestedBindingRedirects.cache
+D:\work\C#\GraphicsWork\WinForm\obj\Debug\WinForm.Properties.Resources.resources
+D:\work\C#\GraphicsWork\WinForm\obj\Debug\WinForm.csproj.GenerateResource.cache
+D:\work\C#\GraphicsWork\WinForm\obj\Debug\WinForm.csproj.CoreCompileInputs.cache
+D:\work\C#\GraphicsWork\WinForm\obj\Debug\WinForm.exe
+D:\work\C#\GraphicsWork\WinForm\obj\Debug\WinForm.pdb
+D:\work\C#\GraphicsWork\WinForm\obj\Debug\WinForm.Form1.resources
