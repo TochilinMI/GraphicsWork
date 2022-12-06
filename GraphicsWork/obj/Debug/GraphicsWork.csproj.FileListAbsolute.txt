@@ -8,3 +8,4 @@ D:\work\C#\GraphicsWork\GraphicsWork\obj\Debug\GraphicsWork.csproj.GenerateResou
 D:\work\C#\GraphicsWork\GraphicsWork\obj\Debug\GraphicsWork.csproj.CoreCompileInputs.cache
 D:\work\C#\GraphicsWork\GraphicsWork\obj\Debug\GraphicsWork.exe
 D:\work\C#\GraphicsWork\GraphicsWork\obj\Debug\GraphicsWork.pdb
+D:\work\C#\GraphicsWork\GraphicsWork\obj\Debug\GraphicsWork.Form1.resources

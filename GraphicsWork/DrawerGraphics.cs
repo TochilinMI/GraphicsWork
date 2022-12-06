@@ -7,21 +7,20 @@ using System.Threading.Tasks;
 
 namespace GraphicsWork
 {
-    internal class TextDrawer
+    internal class DrawerGraphics : IDrawer
     {
         private List<Point> PointList;
-        public TextDrawer(List<Point> PointsListNew){
+        private Form1 form = new Form1 { };
+        public DrawerGraphics(List<System.Drawing.Point> PointsListNew)
+        {
             this.PointList = PointsListNew;
         }
         public void Show()
         {
-            Console.WriteLine("Список точек для отрисовки");
-            // Отрисовка матрицы
             foreach (var point in PointList)
             {
-                Console.WriteLine($"t({point.Y},{point.X})");
+                form.drawAnyPoint(point);
             }
         }
-
     }
 }

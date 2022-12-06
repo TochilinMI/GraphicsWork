@@ -15,18 +15,26 @@ namespace GraphicsWork
         //[STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            
+
             PointRemember points = new PointRemember();
             points.DrawCircle(15, 15, 10);
             points.DrawLine(25, 1, 99, 35);
             points.DrawLine(30, 2, 5, 5);
-            
-            ConsoleDrawer drawer = new ConsoleDrawer(100, 37, ".", points.GetPointList());
+
+            DrawerConsole drawer = new DrawerConsole(100, 37, ".", points.GetPointList());
                 drawer.Show();
-            TextDrawer drawer2 = new TextDrawer(points.GetPointList());
+            DrawerText drawer2 = new DrawerText(points.GetPointList());
                 drawer2.Show();
+
+            Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+
+            DrawerGraphics drawer3 = new DrawerGraphics(points.GetPointList());
+                drawer3.Show();
+
+            
         }
     }
 }
